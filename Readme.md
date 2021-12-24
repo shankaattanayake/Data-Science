@@ -8,6 +8,9 @@ My name is Shanka Attanayake. I did my undergraduate at Ryerson University where
 
 This repository holds all of my personal projects that I've done so far. The current contents are as follows:
 
+1. Machine Learning I
+    - [Benchmark ML Algorithms](https://github.com/shankaattanayake/Data-Science/tree/main/Machine%20Learning%201%20Algorithm/Benchmark_ML_Algorithms)
+
 ### Contact Me
 
 | Contact Method |  |
