@@ -11,7 +11,7 @@ Interpreting the decision process of a machine learning model is important to bu
 
 We conduct experiments on the FashionMNIST dataset ([https://arxiv.org/abs/1708.07747](https://arxiv.org/abs/1708.07747)). It is a dataset of [Zalando](https://jobs.zalando.com/tech/)&#39;s article images and consists of a training set of 60,000 images and a test set of 10,000 images. Each image is a 28x28 grayscale image, associated with a label from 10 classes. The images are in grayscale. Every single pixel is represented by a number in a range from 0 to 255 where 0 corresponds to black color and 255 corresponds to white.
 
-![](RackMultipart20211225-4-18b0nf2_html_46341157fd38c8ce.png)
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%201%20Algorithm/Fashion-Mnist%20Project/Images/Aspose.Words.fb87694c-b2b9-4304-b9c5-2639d593cf81.001.png)<br >
 
 Fig-1: Categories in the FashionMNIST dataset, [0 Tshirt/top, 1 Trouser, 2 Pullover, 3
 
@@ -27,7 +27,7 @@ Data Augmentation is an important component of the machine learning pipeline for
 - Horizontal/VerticalFlips
 - Copy-paste
 
-![](RackMultipart20211225-4-18b0nf2_html_92e34ea4651f27d.png)
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%201%20Algorithm/Fashion-Mnist%20Project/Images/Aspose.Words.fb87694c-b2b9-4304-b9c5-2639d593cf81.002.png)<br >
 
 Fig-2: Data augmentation techniques for FashionMNIST dataset.
 
@@ -41,7 +41,7 @@ We train a random forest classifier for learning to classify the Fashion MNIST i
 
 Random Forest Classifiers are a generic classification algorithm which only require a canonical input data representation (array of features, label). Recent progress in deep learning has seen the application of convolutional neural nets (CNN) to images. CNNs architecture leverages translational and rotational invariance of images to learn features which are then input to a linear layer for classification. In this work we wanted to test the performance of Random Forest Classifier on images.
 
-![](RackMultipart20211225-4-18b0nf2_html_3ec62276da7b679f.png)
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%201%20Algorithm/Fashion-Mnist%20Project/Images/Aspose.Words.fb87694c-b2b9-4304-b9c5-2639d593cf81.003.png)<br >
 
 Fig-3: treeviz visualization for a single decision tree in a FashionMNIST Random Forest Classifier. The visualization was generated using the treeviz library ([https://github.com/PierreCapo/treeviz](https://github.com/PierreCapo/treeviz)).
 
@@ -62,9 +62,9 @@ In our experiments we observed that dataset augmentation techniques were importa
 
 Table-1: data augmentation and N Estimators experiments. The model without data augmentationshowspoorperformanceonthetestdatasetwhichconsistsofhorizontallyand vertically flipped images(row-5).
 
-![](RackMultipart20211225-4-18b0nf2_html_1f92538be2b1941a.jpg) ![](RackMultipart20211225-4-18b0nf2_html_6584f62a93a5ae5b.jpg)
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%201%20Algorithm/Fashion-Mnist%20Project/Images/twoconfusionmatrixes.PNG)<br >
 
-Fig-4: Scaling +Normalization+ Fig-5: Confusion matrix for Data Augmentationconfusionmatrix training withoutaugmentation.
+
 
   
 ## N-Estimators
@@ -88,7 +88,7 @@ The confusion matrix of the best model can be seen in Fig-6. From the confusion 
 
 The confusion matrix also gives us an insight into categories which are tough for the model to distinguish, e.g. shirt (category-7) and coat (category-5), T-shirt/top (category-1) and pullover (category-3). Fig-6 shows the corresponding mistakes made for the pairs of these categories, e.g. T-shirt/top (category-1) gets confused with pullover (category-3) over 100 times on the test set.
 
-![](RackMultipart20211225-4-18b0nf2_html_1f92538be2b1941a.jpg)
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%201%20Algorithm/Fashion-Mnist%20Project/Images/Aspose.Words.fb87694c-b2b9-4304-b9c5-2639d593cf81.006.jpeg)<br >
 
 Fig-6: Confusion matrix for the best model configuration.
 
