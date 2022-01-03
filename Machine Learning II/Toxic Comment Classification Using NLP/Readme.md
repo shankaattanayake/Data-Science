@@ -81,7 +81,7 @@ To explore the application of modern machine learning techniques we also train a
 
 *Figure 8: Neural Network Architecture*
 
-1. **Neural Network Featurization**
+**Neural Network Featurization**
 
 We tried two different techniques to featurize the text comments:
 
@@ -89,7 +89,7 @@ We tried two different techniques to featurize the text comments:
 1. BERT sentence encoder: BERT is a modern transformer based neural network which can generate embedding for sentences. Using this technique for each sentence we created a 384-dimensional embedding which was then fed into our MLP model.
 
 
-1. **Reweighing of Loss**
+**Reweighing of Loss**
 
 The number of non-toxic comments in our train dataset is 9 times the number of toxic comments. This skew in the dataset increases the difficulty of the neural network learning process. To get around this we use a weight term in our CrossEntropy loss. We experimented with different values of the weight term, a weight penalty of 1 for the non-toxic class and 4 for the toxic class gives us the best F1-score.
 
