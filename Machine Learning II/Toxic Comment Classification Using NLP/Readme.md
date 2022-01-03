@@ -125,7 +125,7 @@ A confusion matrix is a tool widely used to measure the performance of a model, 
 *Figure 9: Confusion Matrix - Random Forest with CountVectorizer*
 
 
-![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.012.jpeg)<br >
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.012.png)<br >
 
 *Figure 10: Confusion Matrix - Random Forest with CountVectorizer and Tf-idf Transformer*
 
@@ -136,32 +136,10 @@ score went from 0.65 to 0.66 and Precision from 0.68 to 0.70, meaning that by re
 
 # **Experiments: Neural Network**
 
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/t1.PNG)<br >
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/t2.PNG)<br >
 
-
-|<p>**S. N**</p><p>**o**</p>|**Neural Network**|**Feature**|**Label**|**Precisio n**|**Recal l**|**F1-Score**|**Support**|**Accura cy**|
-| :- | :- | :- | :- | :- | :- | :- | :- | :- |
-|1|2 layer MLP|Tf-IDF|Non- Toxic|0.93|0.91|0.92|57888|0.88|
-|||Sent- encoder|Toxic|0.49|0.62|0.54|6090||
-|2|3 layer MLP|Tf-IDF|Non- Toxic|0.94|0.91|0.92|57888|0.90|
-|||Sent- encoder|Toxic|0.52|0.63|0.57|6090||
-|3|2 layer MLP + weighted loss|Tf-IDF|Non- Toxic|0.97|0.94|0.95|57888|0.93|
-|||Sent- encoder|Toxic|0.57|9,71|0.63|6090||
-|4|3 layer MLP + weighted loss|Tf-IDF|Non- Toxic|0.97|0.95|0.96|57888|0.94|
-|||Sent- encoder|Toxic|0.62|0.76|0.65|6090||
-|5|2 layer MLP|Tf-IDF|Non-|0.96|0.94|0.95|57888|0.91|
-
-|||Toxic||
-| :- | :- | :- | :- |
-||Sent- encoder|Toxic|0.54|0.67|0.60|6090||
-|6|3 layer MLP|Tf-IDF|Non- Toxic|0.95|0.97|0.96|57888|0.93|
-|||Sent- encoder|Toxic|0.63|0.55|0.59|6090||
-|7|2 layer MLP + weighted loss|Tf-IDF|Non- Toxic|0.97|0.91|0.94|57888|0.90|
-|||Sent- encoder|Toxic|0.47|0.77|0.59|6090||
-|8|3 layer MLP + weighted loss|Tf-IDF|Non- Toxic|0.97|0.92|0.95|57888|0.91|
-|||<p>Sent-</p><p>encoder</p>|Toxic|0.51|0.75|0.61|6090||
-![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.013.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.014.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.015.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.015.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.016.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.017.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.017.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.017.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.018.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.019.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.019.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.019.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.018.png)
-
-![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.019.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.019.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.019.png)![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.020.png)*Table 3: Performance of Different Neural Network Settings*
+*Table 3: Performance of Different Neural Network Settings*
 
 
 
