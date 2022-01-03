@@ -95,20 +95,15 @@ The number of non-toxic comments in our train dataset is 9 times the number of t
 
 # **RESULTS**
 
-0. **Machine Learning**
+## Machine Learning
 
-![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.010.png)
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.010.jpeg)<br >
 
 *Table 1: Model Performance with Raw Data Training*
 
-Initially, all the machine learning algorithms with Countvectorizer and TF-IDF Transformer were trained with the original raw data without any preprocessing cleaning performed on the dataset to obtain a benchmark accuracy. The performance of each machine learning classifier can be seen in Table 1: Model Performance With Raw Data. The highest accuracy obtained was 92% with logistic regression, but the Precision, Recall and F1-Scores obtained by the Toxic comments were far from optimal. Most were below or within the 50% mark. The reason for this could be because of the imbalance of the training data as there are 10 times as many Non-toxic comments as toxic
+Initially, all the machine learning algorithms with Countvectorizer and TF-IDF Transformer were trained with the original raw data without any preprocessing cleaning performed on the dataset to obtain a benchmark accuracy. The performance of each machine learning classifier can be seen in Table 1: Model Performance With Raw Data. The highest accuracy obtained was 92% with logistic regression, but the Precision, Recall and F1-Scores obtained by the Toxic comments were far from optimal. Most were below or within the 50% mark. The reason for this could be because of the imbalance of the training data as there are 10 times as many Non-toxic comments as toxic comments.
 
-![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.011.png)
-
-
-
-
-comments.
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.011.jpeg)<br >
 
 *Table 2: Model Performance with Cleaned Data*
 
@@ -116,7 +111,8 @@ comments.
 The Performance of the machine learning classifier model with cleaned data can be seen in Table 2: Model Performance With Cleaned Data. The highest accuracy increased by 2% when the machine learning classifiers were trained with the cleaned data, where the highest accuracy was
 
 94% with Random Forest Classifier. The Precision, Recall, and F1-Score for the Toxic comments increased with the cleaned data training , where most scores increased by 15%.
-0. # **Confusion Matrix**
+
+### Confusion Matrix
 
 As we have seen throughout the project, we have been experimenting with different methods such as classical algorithms namely Decision Trees, Random Forest, Multinomial Naive Bayes, and Logistic Regression, also Neural Networks were applied to the dataset to compare performances among all of them and see the highest accuracy reached for toxic and non-toxic comments
 
@@ -124,25 +120,21 @@ Countvectorizer and TF-IDF were utilized to allow the text to be processed, and 
 
 A confusion matrix is a tool widely used to measure the performance of a model, and from it, we can derive some other measurements such as recall, accuracy, and precision. Based on the circumstances of this project, that matrix is made up of two labels (toxic, non-toxic), two types of values defined as predicted values and actual values, finally, it has 4 possible results which are: true positive, false positive, false negative, true negative
 
-
-![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.012.png)
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.012.jpeg)<br >
 
 *Figure 9: Confusion Matrix - Random Forest with CountVectorizer*
 
 
-
-![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.012.png)
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.013.jpeg)<br >
 
 *Figure 10: Confusion Matrix - Random Forest with CountVectorizer and Tf-idf Transformer*
-
-
 
 
 For both matrices, results are very similar in terms of true positives and true negatives: the majority of the results are allocated right in these segments respectively, nevertheless, there are two measurements that present a slight variation in comparison to the previous scenario, namely, F1
 
 score went from 0.65 to 0.66 and Precision from 0.68 to 0.70, meaning that by readjusting the type of vectorizer we enhanced the model accuracy, which is 0.94 for both, for toxic comments
 
-0. # **Experiments: Neural Network**
+# **Experiments: Neural Network**
 
 
 
