@@ -63,21 +63,21 @@ In Figure: Raw Data Before Cleanup, it can be seen what the raw data was before 
 0. All non-alphanumeric and digit characters were removed.
 
 
-0. # **METHODOLOGY/MODEL USED**
+# **METHODOLOGY/MODEL USED**
 
 We tried to use machine learning classifiers and neural network in this project. Here are the details in below subsections.
 
 
-0. # **Machine Learning Classifiers**
+## Machine Learning Classifiers
 
 The model used for this project is a pipeline with Countvectoriezer, Tf\_IDF transformer, and a Machine learning Classifier. There were multiple Machine Learning Classifiers used for this project, which were Random Forest Classifier, Logistic Regression, Decision Tree, and Multinomial Naive Bayes.
 
 
-0. # **Neural Networks**
+## Neural Networks
 
 To explore the application of modern machine learning techniques we also train a simple neural network model to predict if a comment is toxic. An architecture for the 3 layer MLP (Multi Layer Perceptron) that we train is shown in Fig-1.
 
-![](Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.009.jpeg)
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.009.jpeg)<br >
 
 *Figure 8: Neural Network Architecture*
 
@@ -93,7 +93,7 @@ We tried two different techniques to featurize the text comments:
 
 The number of non-toxic comments in our train dataset is 9 times the number of toxic comments. This skew in the dataset increases the difficulty of the neural network learning process. To get around this we use a weight term in our CrossEntropy loss. We experimented with different values of the weight term, a weight penalty of 1 for the non-toxic class and 4 for the toxic class gives us the best F1-score.
 
-0. # **RESULTS**
+# **RESULTS**
 
 0. **Machine Learning**
 
