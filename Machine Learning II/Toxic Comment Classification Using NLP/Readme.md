@@ -12,39 +12,39 @@ We want to identify if a comment is toxic or not on social media to enable a bet
   ## Dataset
 The dataset we chose for this project was found on Kaggle. It consist of comments from the Wikipedia’s talk page edits and it have already spited into 2 separate set: train and test. In both set, there are around 10% records are labeled as toxic. Both dataset each has over 150 thousand records and contains 9 features including: id, comment_text, id, toxic, severe_toxic, obscene, threat, insult, and identity_hate.  
   
-Image
+
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.001.png)<br >
 
 *Figure 1: Train vs Test Dataset*
 
-Image
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.003.jpeg)<br >
 
 *Figure 2: Shape of Test Data*
 
 Figure 3 shows for the distribution of tags in the train dataset. Note that the toxicity is not evenly spread out. Therefore, we must be careful about imbalance issues.
 
-Image
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.004.jpeg)<br >
 
 *Figure 3: Distribution of tags in Train Data*
 
 The Figure below shows how many comments have multiple tags. Some comments are tagged with more than one toxic tag.
 
-Image
-
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.005.jpeg)<br >
 *Figure 4: Number of Comments with Multiple Tags*
 
 The figure below shows the correlation of different tags.
 
-Image
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.006.png)<br >
 
 *Figure 5: Correlation of Different Tags*
 
 ## Data Cleaning
 
-Image
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.007.jpeg)<br >
 
 *Figure 6: Raw Data Before Cleanup*
 
-Image
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP/Images/Aspose.Words.5ac75d56-cac0-4c67-8eb4-66c3b1fc3310.008.jpeg)<br >
 
 *Figure 7: Data After Cleanup*
 
