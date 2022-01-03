@@ -130,9 +130,7 @@ A confusion matrix is a tool widely used to measure the performance of a model, 
 *Figure 10: Confusion Matrix - Random Forest with CountVectorizer and Tf-idf Transformer*
 
 
-For both matrices, results are very similar in terms of true positives and true negatives: the majority of the results are allocated right in these segments respectively, nevertheless, there are two measurements that present a slight variation in comparison to the previous scenario, namely, F1
-
-score went from 0.65 to 0.66 and Precision from 0.68 to 0.70, meaning that by readjusting the type of vectorizer we enhanced the model accuracy, which is 0.94 for both, for toxic comments
+For both matrices, results are very similar in terms of true positives and true negatives: the majority of the results are allocated right in these segments respectively, nevertheless, there are two measurements that present a slight variation in comparison to the previous scenario, namely, F1-score went from 0.65 to 0.66 and Precision from 0.68 to 0.70, meaning that by readjusting the type of vectorizer we enhanced the model accuracy, which is 0.94 for both, for toxic comments
 
 # **Experiments: Neural Network**
 
@@ -159,12 +157,12 @@ Based on all the previous procedures and after all the research we have done so 
 
 1. Clean data VS Raw data makes the difference in terms of accuracy:
 
-Feature engineering, data preprocessing, and cleaning lead us to better results, and for the algorithm, with the best accuracy, we went from 0.91 to 0.94 by applying these techniques to raw data.
+  Feature engineering, data preprocessing, and cleaning lead us to better results, and for the algorithm, with the best accuracy, we went from 0.91 to 0.94 by applying these techniques to raw data.
 
-1. Based on the simplicity of a binary classifier task, Classic Algorithms turn out a better option rather than NN:
+2. Based on the simplicity of a binary classifier task, Classic Algorithms turn out a better option rather than NN:
 
-Considering the ranking we created to compare these classifiers, the best results were reached by Neural Networks and Random Forest, nonetheless, the last one outperformed the rest on this task since the simplicity of this case, that is, a binary classification problem doesn't require necessarily using a more sophisticated tool.
+  Considering the ranking we created to compare these classifiers, the best results were reached by Neural Networks and Random Forest, nonetheless, the last one outperformed the rest on this task since the simplicity of this case, that is, a binary classification problem doesn't require necessarily using a more sophisticated tool.
 
-1. We are looking forward to seeing new results by trying some other variations of this methodology:
+3. We are looking forward to seeing new results by trying some other variations of this methodology:
 
-We challenged our model by putting it into a test with some toxic and non-toxic phrases, some of them provided by and professor some classmates and it turned out that It worked out pretty well, however, we will be working on it to tackle the problems inherent to this topic like detecting sarcasm, for instance, and improve the model to make social media a place with a better and healthier communication environment.
+  We challenged our model by putting it into a test with some toxic and non-toxic phrases, some of them provided by and professor some classmates and it turned out that It     worked out pretty well, however, we will be working on it to tackle the problems inherent to this topic like detecting sarcasm, for instance, and improve the model to make social media a place with a better and healthier communication environment.
