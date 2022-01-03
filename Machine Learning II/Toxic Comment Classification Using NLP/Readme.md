@@ -9,7 +9,7 @@ The internet and social media are one of the best innovations in the past centur
 We want to identify if a comment is toxic or not on social media to enable a better and healthier communication environment.
 
 # **Data**
-  # Dataset
+  ## Dataset
 The dataset we chose for this project was found on Kaggle. It consist of comments from the Wikipedia’s talk page edits and it have already spited into 2 separate set: train and test. In both set, there are around 10% records are labeled as toxic. Both dataset each has over 150 thousand records and contains 9 features including: id, comment_text, id, toxic, severe_toxic, obscene, threat, insult, and identity_hate.  
   
 Image
@@ -38,7 +38,7 @@ Image
 
 *Figure 5: Correlation of Different Tags*
 
-# **Data Cleaning**
+## Data Cleaning
 
 Image
 
