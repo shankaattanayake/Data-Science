@@ -14,7 +14,7 @@ On this project different Summarization tools will be used on a Medium Article t
 
 ![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Media%20Article%20Summarization/Images/Aspose.Words.c1bdd950-31f6-4c0f-bd7e-d28440cec9af.006.png)<br >
 
-##Conclusion
+## Conclusion
 
 Gensim, Summa, and Sumy goes through the whole article to find the most significant sentences that defines the essence of the article and copies the sentences word to word.
 
