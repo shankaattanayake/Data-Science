@@ -1,4 +1,4 @@
-# Movie 
+# Movie Recommender
 ___
  
 ## Project Goal
