@@ -149,7 +149,7 @@ We experimented with a larger penalty term for the Toxic class but that led to a
 Using the BERT sentence encoder did not lead to improvements in the performance, this was likely because the dataset used for pre-training of the BERT encoder is significantly different from our toxic comments dataset. In our experiments the Tf-IDF features gave the best performance.
 
 
-# **4.0 Conclusion**
+# Conclusion
 
 The purpose of this project was to identify toxic and non-toxic comments on social media, to address that, we started off with trying to see how the model perform with raw data and we used several algorithms, then after the data cleaning process we fit the model and made some predictions to create a benchmark analysis and make comparisons among all of them and also see how Neural Networks work for a task like this.
 
