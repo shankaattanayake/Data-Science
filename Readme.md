@@ -13,6 +13,10 @@ This repository holds all of my personal projects that I've done so far. The cur
     - [Fashion-Mnist Project With Random Forest Classification](https://github.com/shankaattanayake/Data-Science/tree/main/Machine%20Learning%201%20Algorithm/Fashion-Mnist%20Project)
 
 2. Machine Learning II(NLP)
+    - [Natural Language Processing Techniques](https://github.com/shankaattanayake/Data-Science/tree/main/Machine%20Learning%20II/Natural%20Language%20Processing%20Techniques)
+    - [Media Article Summarization](https://github.com/shankaattanayake/Data-Science/tree/main/Machine%20Learning%20II/Media%20Article%20Summarization)
+    - [Toxic Comments Classification](https://github.com/shankaattanayake/Data-Science/tree/main/Machine%20Learning%20II/Toxic%20Comment%20Classification%20Using%20NLP)
+    - [Movie Recommender](https://github.com/shankaattanayake/Data-Science/tree/main/Machine%20Learning%20II/Movie%20Recommender)
 
 
 ### Contact Me
