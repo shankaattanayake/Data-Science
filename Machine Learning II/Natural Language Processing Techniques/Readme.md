@@ -16,7 +16,7 @@ Steps for Bag of Words is as follows:
 2.	Create Dictionary of Word Frequency
 3.	Bag of Words Model
 
-Image
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Natural%20Language%20Processing%20Techniques/Images/Aspose.Words.f9e12ff5-9821-4e78-ac38-88bbda1119a8.001.png)<br >
 
 Figure 1: Bag of Words Models of "I like to play football", "Did you go outside to play tennis", and "John and I play tennis”
 
@@ -32,15 +32,15 @@ TF-IDF is used to give words that appear less frequently more gravity than other
 5.	Compute Inverse Document frequency
 6.	Compute TF-IDF values
 
-Image
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Natural%20Language%20Processing%20Techniques/Images/Aspose.Words.f9e12ff5-9821-4e78-ac38-88bbda1119a8.002.png)<br >
 
 Figure 2: Term Frequency
 
-Image 
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Natural%20Language%20Processing%20Techniques/Images/Aspose.Words.f9e12ff5-9821-4e78-ac38-88bbda1119a8.003.png)<br >
 
 Figure 3: Inverse Term Frequency
 
-Image
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Natural%20Language%20Processing%20Techniques/Images/Aspose.Words.f9e12ff5-9821-4e78-ac38-88bbda1119a8.004.png)<br >
 
 Figure 4: TF-IDF Value
 The TF-IDF Values of each sentence can be sent to Machine Learning Algorithms to train the model.
@@ -55,11 +55,11 @@ Steps to take for Character & Word N Gram are as follows:
 4.	Build the N-Grams model
 5.	 Generate sequence
  
- Image
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Natural%20Language%20Processing%20Techniques/Images/Aspose.Words.f9e12ff5-9821-4e78-ac38-88bbda1119a8.005.png)<br >
  
 Figure 5: Character N-Gram
  
- Image
+![image](https://github.com/shankaattanayake/Data-Science/blob/main/Machine%20Learning%20II/Natural%20Language%20Processing%20Techniques/Images/Aspose.Words.f9e12ff5-9821-4e78-ac38-88bbda1119a8.006.png)<br >
  
 Figure 6: Word N-Gram
 
