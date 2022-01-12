@@ -10,7 +10,7 @@ Next, the Grayscale image was blurred and sent to a contour finder to find infor
 
 Finally, the information of the face is used to insert objects into the camera feed such that the interested areas of the camera feed are given more focus. 
 
-For the specific code used for this project, it can be seen in the Jupyter Notebook file in this folder. 
+For the specific code used for this project, it can be seen in the Jupyter Notebook file in this folder. (Task6_Cartoon Filter_Solution.ipynb)
 
 | ![ezgif com-gif-maker (4)](https://github.com/shankaattanayake/Data-Science/blob/main/Computer%20Vision/Images/reduze%20finale%20face.gif) |
 
