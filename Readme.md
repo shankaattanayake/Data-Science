@@ -19,7 +19,8 @@ This repository holds all of my personal projects that I've done so far. The cur
     - [Movie Recommender](https://github.com/shankaattanayake/Data-Science/tree/main/Machine%20Learning%20II/Movie%20Recommender)
 
 3. Computer Vision
-    -[Face Tracking and Face Filtering](https://github.com/shankaattanayake/Data-Science/tree/main/Computer%20Vision/Face%20Tracking%20and%20Face%20Filtering)
+    - [Face Tracking and Face Filtering](https://github.com/shankaattanayake/Data-Science/tree/main/Computer%20Vision/Face%20Tracking%20and%20Face%20Filtering)
+    - 
 ### Contact Me
 
 | Contact Method |  |
