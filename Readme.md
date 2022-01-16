@@ -26,4 +26,5 @@ This repository holds all of my personal projects that I've done so far. The cur
 | Contact Method |  |
 | --- | --- |
 | Email | Lakkitha1@yahoo.com |
+| Phone | 519-501-9496|
 | LinkedIn | [linkedin.com/in/shankaattanayake](https://linkedin.com/in/shankaattanayake) |
