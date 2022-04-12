@@ -1,4 +1,4 @@
-### Project ASL Sign Detection.
+# Project ASL Sign Detection.
 
 ## Problem Statement
 Design a model trained to learn human features gestures for signed interpretations by predictingand classifying American Sign Language without the help of a physical translator.
