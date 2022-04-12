@@ -20,6 +20,9 @@ This repository holds all of my personal projects that I've done so far. The cur
 
 3. Computer Vision
     - [Face Tracking and Face Filtering](https://github.com/shankaattanayake/Data-Science/tree/main/Computer%20Vision/Face%20Tracking%20and%20Face%20Filtering)
+
+4. Deep Learnng
+    -[ASL Translator Object Detection](https://github.com/shankaattanayake/Data-Science/blob/main/Deep_Learning/ASL_Translator/Readme.md)
   
 ### Contact Me
 
